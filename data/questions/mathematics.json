@@ -1,0 +1,170 @@
+[
+  {
+    "id": "math-001",
+    "type": "mcq",
+    "subject": "mathematics",
+    "difficulty": "beginner",
+    "questionText": "What is 5 + 3?",
+    "questionTextHindi": "5 + 3 क्या है?",
+    "options": [
+      {
+        "id": "opt-1",
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-2",
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "id": "opt-3",
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-4",
+        "text": "10",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "opt-2",
+    "explanation": "When we add 5 and 3, we get 8. This is a basic arithmetic operation.",
+    "explanationHindi": "जब हम 5 और 3 को जोड़ते हैं, तो हमें 8 मिलता है। यह एक बुनियादी अंकगणितीय ऑपरेशन है।",
+    "tags": ["addition", "basic", "arithmetic"],
+    "prerequisites": [],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  },
+  {
+    "id": "math-002",
+    "type": "mcq",
+    "subject": "mathematics",
+    "difficulty": "beginner",
+    "questionText": "What is 12 ÷ 3?",
+    "questionTextHindi": "12 ÷ 3 क्या है?",
+    "options": [
+      {
+        "id": "opt-1",
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-2",
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "id": "opt-3",
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-4",
+        "text": "6",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "opt-2",
+    "explanation": "Division is the inverse of multiplication. 12 ÷ 3 = 4 because 3 × 4 = 12.",
+    "explanationHindi": "विभाजन गुणन का व्युत्क्रम है। 12 ÷ 3 = 4 क्योंकि 3 × 4 = 12।",
+    "tags": ["division", "basic", "arithmetic"],
+    "prerequisites": ["multiplication"],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  },
+  {
+    "id": "math-003",
+    "type": "conceptual",
+    "subject": "mathematics",
+    "difficulty": "intermediate",
+    "questionText": "Explain what a prime number is and give three examples.",
+    "questionTextHindi": "अभाज्य संख्या क्या है, समझाइए और तीन उदाहरण दीजिए।",
+    "hints": [
+      {
+        "level": 1,
+        "text": "A prime number is only divisible by 1 and itself."
+      },
+      {
+        "level": 2,
+        "text": "Examples include 2, 3, 5, 7, 11, 13, etc. These numbers have no other divisors."
+      },
+      {
+        "level": 3,
+        "text": "2 is the only even prime number. All other prime numbers are odd."
+      }
+    ],
+    "acceptableAnswers": [
+      "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself",
+      "A number that can only be divided by 1 and itself",
+      "Numbers like 2, 3, 5, 7, 11 are prime"
+    ],
+    "keyPoints": [
+      "Prime numbers are greater than 1",
+      "They have exactly two divisors: 1 and themselves",
+      "2 is the smallest and only even prime",
+      "Examples: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29"
+    ],
+    "explanation": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. Examples: 2, 3, 5, 7, 11.",
+    "explanationHindi": "अभाज्य संख्या 1 से बड़ी एक प्राकृतिक संख्या है जिसका कोई सकारात्मक भाजक नहीं है सिवाय 1 और स्वयं के। उदाहरण: 2, 3, 5, 7, 11।",
+    "tags": ["prime-numbers", "number-theory", "concepts"],
+    "prerequisites": ["basic-arithmetic"],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  },
+  {
+    "id": "math-004",
+    "type": "numerical",
+    "subject": "mathematics",
+    "difficulty": "intermediate",
+    "questionText": "If a rectangle has length 8 cm and width 5 cm, what is its area?",
+    "questionTextHindi": "यदि एक आयत की लंबाई 8 सेमी और चौड़ाई 5 सेमी है, तो इसका क्षेत्रफल क्या है?",
+    "correctAnswer": 40,
+    "tolerance": 0,
+    "unit": "cm²",
+    "formula": "Area = length × width",
+    "explanation": "The area of a rectangle is calculated by multiplying its length by its width. Area = 8 × 5 = 40 cm².",
+    "explanationHindi": "आयत का क्षेत्रफल इसकी लंबाई को चौड़ाई से गुणा करके निकाला जाता है। क्षेत्रफल = 8 × 5 = 40 सेमी²।",
+    "tags": ["geometry", "area", "rectangles"],
+    "prerequisites": ["multiplication"],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  },
+  {
+    "id": "math-005",
+    "type": "mcq",
+    "subject": "mathematics",
+    "difficulty": "advanced",
+    "questionText": "What is the derivative of f(x) = 3x² + 2x + 1?",
+    "questionTextHindi": "f(x) = 3x² + 2x + 1 का अवकलज क्या है?",
+    "options": [
+      {
+        "id": "opt-1",
+        "text": "6x + 2",
+        "isCorrect": true
+      },
+      {
+        "id": "opt-2",
+        "text": "3x + 2",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-3",
+        "text": "6x + 1",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-4",
+        "text": "3x² + 2",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "opt-1",
+    "explanation": "Using the power rule: d/dx(x^n) = n·x^(n-1). So d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(1) = 0. Therefore, f'(x) = 6x + 2.",
+    "explanationHindi": "घात नियम का उपयोग करते हुए: d/dx(x^n) = n·x^(n-1)। तो d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(1) = 0। इसलिए, f'(x) = 6x + 2।",
+    "tags": ["calculus", "derivatives", "advanced"],
+    "prerequisites": ["algebra", "power-rule"],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  }
+]

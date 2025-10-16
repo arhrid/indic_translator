@@ -1,0 +1,171 @@
+[
+  {
+    "id": "fin-001",
+    "type": "mcq",
+    "subject": "finance",
+    "difficulty": "beginner",
+    "questionText": "What is the primary purpose of a budget?",
+    "questionTextHindi": "बजट का प्राथमिक उद्देश्य क्या है?",
+    "options": [
+      {
+        "id": "opt-1",
+        "text": "To track spending and plan for future expenses",
+        "isCorrect": true
+      },
+      {
+        "id": "opt-2",
+        "text": "To invest all money in stocks",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-3",
+        "text": "To avoid paying taxes",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-4",
+        "text": "To borrow more money",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "opt-1",
+    "explanation": "A budget is a financial plan that helps you track your income and expenses, and plan for future spending.",
+    "explanationHindi": "बजट एक वित्तीय योजना है जो आपको अपनी आय और व्यय को ट्रैक करने और भविष्य के खर्च की योजना बनाने में मदद करती है।",
+    "tags": ["budgeting", "personal-finance", "basics"],
+    "prerequisites": [],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  },
+  {
+    "id": "fin-002",
+    "type": "mcq",
+    "subject": "finance",
+    "difficulty": "beginner",
+    "questionText": "What is compound interest?",
+    "questionTextHindi": "चक्रवृद्धि ब्याज क्या है?",
+    "options": [
+      {
+        "id": "opt-1",
+        "text": "Interest earned only on the principal amount",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-2",
+        "text": "Interest earned on both principal and previously earned interest",
+        "isCorrect": true
+      },
+      {
+        "id": "opt-3",
+        "text": "A fixed interest rate",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-4",
+        "text": "Interest that decreases over time",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "opt-2",
+    "explanation": "Compound interest is calculated on the principal amount plus any previously earned interest, allowing your money to grow exponentially.",
+    "explanationHindi": "चक्रवृद्धि ब्याज मूल राशि और पहले से अर्जित किसी भी ब्याज पर गणना की जाती है, जिससे आपका पैसा तेजी से बढ़ता है।",
+    "tags": ["interest", "investments", "financial-concepts"],
+    "prerequisites": ["basic-math"],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  },
+  {
+    "id": "fin-003",
+    "type": "conceptual",
+    "subject": "finance",
+    "difficulty": "intermediate",
+    "questionText": "Explain the difference between stocks and bonds.",
+    "questionTextHindi": "स्टॉक और बॉन्ड के बीच अंतर समझाइए।",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Stocks represent ownership in a company, while bonds represent debt."
+      },
+      {
+        "level": 2,
+        "text": "When you buy stocks, you become a partial owner. When you buy bonds, you lend money to a company or government."
+      },
+      {
+        "level": 3,
+        "text": "Stocks have higher risk but higher potential returns. Bonds are generally safer with fixed returns."
+      }
+    ],
+    "acceptableAnswers": [
+      "Stocks are ownership shares in a company, bonds are loans to companies or governments",
+      "Stocks give you ownership, bonds give you fixed interest payments",
+      "Stocks are riskier with variable returns, bonds are safer with fixed returns"
+    ],
+    "keyPoints": [
+      "Stocks = Ownership in a company",
+      "Bonds = Debt instruments (loans)",
+      "Stocks have variable returns and higher risk",
+      "Bonds have fixed returns and lower risk",
+      "Stocks can appreciate in value, bonds pay interest"
+    ],
+    "explanation": "Stocks represent partial ownership in a company, while bonds are debt instruments where you lend money to a company or government in exchange for interest payments.",
+    "explanationHindi": "स्टॉक किसी कंपनी में आंशिक स्वामित्व का प्रतिनिधित्व करते हैं, जबकि बॉन्ड ऋण साधन हैं जहां आप ब्याज भुगतान के बदले किसी कंपनी या सरकार को पैसा उधार देते हैं।",
+    "tags": ["investments", "stocks", "bonds", "portfolio"],
+    "prerequisites": ["financial-basics"],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  },
+  {
+    "id": "fin-004",
+    "type": "numerical",
+    "subject": "finance",
+    "difficulty": "intermediate",
+    "questionText": "If you invest $1000 at 5% annual interest for 2 years (simple interest), how much will you have?",
+    "questionTextHindi": "यदि आप $1000 को 5% वार्षिक ब्याज पर 2 साल के लिए निवेश करते हैं (साधारण ब्याज), तो आपके पास कितना होगा?",
+    "correctAnswer": 1100,
+    "tolerance": 0,
+    "unit": "$",
+    "formula": "A = P + (P × R × T) = 1000 + (1000 × 0.05 × 2) = 1100",
+    "explanation": "Simple interest formula: A = P + (P × R × T). Where P=1000, R=0.05, T=2. So A = 1000 + (1000 × 0.05 × 2) = 1000 + 100 = $1100.",
+    "explanationHindi": "साधारण ब्याज सूत्र: A = P + (P × R × T)। जहां P=1000, R=0.05, T=2। तो A = 1000 + (1000 × 0.05 × 2) = 1000 + 100 = $1100।",
+    "tags": ["simple-interest", "investments", "calculations"],
+    "prerequisites": ["basic-math", "percentages"],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  },
+  {
+    "id": "fin-005",
+    "type": "mcq",
+    "subject": "finance",
+    "difficulty": "advanced",
+    "questionText": "What is the capital asset pricing model (CAPM) used for?",
+    "questionTextHindi": "पूंजी संपत्ति मूल्य निर्धारण मॉडल (CAPM) का उपयोग किस लिए किया जाता है?",
+    "options": [
+      {
+        "id": "opt-1",
+        "text": "To calculate the expected return on an investment",
+        "isCorrect": true
+      },
+      {
+        "id": "opt-2",
+        "text": "To determine company profits",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-3",
+        "text": "To calculate tax liabilities",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-4",
+        "text": "To measure inflation rates",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "opt-1",
+    "explanation": "CAPM is a financial model used to calculate the expected return on an investment based on its risk. Formula: Expected Return = Risk-free Rate + Beta × (Market Return - Risk-free Rate).",
+    "explanationHindi": "CAPM एक वित्तीय मॉडल है जिसका उपयोग किसी निवेश पर अपेक्षित रिटर्न की गणना करने के लिए किया जाता है। सूत्र: अपेक्षित रिटर्न = जोखिम-मुक्त दर + बीटा × (बाजार रिटर्न - जोखिम-मुक्त दर)।",
+    "tags": ["capm", "portfolio-theory", "advanced-finance"],
+    "prerequisites": ["investments", "risk-management"],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  }
+]

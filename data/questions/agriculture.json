@@ -1,0 +1,172 @@
+[
+  {
+    "id": "agr-001",
+    "type": "mcq",
+    "subject": "agriculture",
+    "difficulty": "beginner",
+    "questionText": "What is the primary purpose of crop rotation?",
+    "questionTextHindi": "फसल चक्र का प्राथमिक उद्देश्य क्या है?",
+    "options": [
+      {
+        "id": "opt-1",
+        "text": "To maintain soil fertility and reduce pests",
+        "isCorrect": true
+      },
+      {
+        "id": "opt-2",
+        "text": "To increase water usage",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-3",
+        "text": "To reduce the number of crops",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-4",
+        "text": "To eliminate all weeds",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "opt-1",
+    "explanation": "Crop rotation helps maintain soil fertility by alternating different crops, which reduces pest buildup and improves soil health.",
+    "explanationHindi": "फसल चक्र विभिन्न फसलों को बारी-बारी से लगाकर मिट्टी की उर्वरता को बनाए रखने में मदद करता है, जो कीटों के संचय को कम करता है और मिट्टी के स्वास्थ्य में सुधार करता है।",
+    "tags": ["crop-rotation", "soil-management", "sustainable-farming"],
+    "prerequisites": [],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  },
+  {
+    "id": "agr-002",
+    "type": "mcq",
+    "subject": "agriculture",
+    "difficulty": "beginner",
+    "questionText": "Which nutrient is most important for plant growth?",
+    "questionTextHindi": "पौधों की वृद्धि के लिए कौन सा पोषक तत्व सबसे महत्वपूर्ण है?",
+    "options": [
+      {
+        "id": "opt-1",
+        "text": "Nitrogen",
+        "isCorrect": true
+      },
+      {
+        "id": "opt-2",
+        "text": "Oxygen",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-3",
+        "text": "Carbon dioxide",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-4",
+        "text": "Water only",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "opt-1",
+    "explanation": "Nitrogen is essential for plant growth as it is a key component of proteins and chlorophyll. It promotes leaf and stem development.",
+    "explanationHindi": "नाइट्रोजन पौधों की वृद्धि के लिए आवश्यक है क्योंकि यह प्रोटीन और क्लोरोफिल का एक मुख्य घटक है। यह पत्ती और तने के विकास को बढ़ावा देता है।",
+    "tags": ["nutrients", "plant-growth", "fertilizers"],
+    "prerequisites": ["basic-biology"],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  },
+  {
+    "id": "agr-003",
+    "type": "conceptual",
+    "subject": "agriculture",
+    "difficulty": "intermediate",
+    "questionText": "Explain the concept of sustainable agriculture and its benefits.",
+    "questionTextHindi": "टिकाऊ कृषि की अवधारणा और इसके लाभों को समझाइए।",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Sustainable agriculture focuses on long-term productivity while protecting the environment."
+      },
+      {
+        "level": 2,
+        "text": "It includes practices like crop rotation, organic farming, water conservation, and reduced chemical use."
+      },
+      {
+        "level": 3,
+        "text": "Benefits include improved soil health, reduced environmental impact, lower costs, and better food quality."
+      }
+    ],
+    "acceptableAnswers": [
+      "Sustainable agriculture maintains productivity while protecting the environment",
+      "It uses practices like crop rotation and organic methods to preserve soil and reduce chemicals",
+      "It balances production with environmental conservation"
+    ],
+    "keyPoints": [
+      "Focuses on long-term productivity",
+      "Protects soil, water, and biodiversity",
+      "Uses organic and natural methods",
+      "Reduces chemical inputs",
+      "Improves food quality and safety",
+      "Economically viable for farmers"
+    ],
+    "explanation": "Sustainable agriculture is a farming approach that maintains productivity while protecting the environment through practices like crop rotation, organic farming, and water conservation.",
+    "explanationHindi": "टिकाऊ कृषि एक कृषि दृष्टिकोण है जो फसल चक्र, जैव खेती और जल संरक्षण जैसी प्रथाओं के माध्यम से उत्पादकता को बनाए रखते हुए पर्यावरण की रक्षा करता है।",
+    "tags": ["sustainable-farming", "environmental-conservation", "organic-farming"],
+    "prerequisites": ["agriculture-basics"],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  },
+  {
+    "id": "agr-004",
+    "type": "numerical",
+    "subject": "agriculture",
+    "difficulty": "intermediate",
+    "questionText": "If a farmer has 10 hectares of land and yields 5 tons per hectare, what is the total yield?",
+    "questionTextHindi": "यदि एक किसान के पास 10 हेक्टेयर भूमि है और प्रति हेक्टेयर 5 टन उपज है, तो कुल उपज क्या है?",
+    "correctAnswer": 50,
+    "tolerance": 0,
+    "unit": "tons",
+    "formula": "Total Yield = Land Area × Yield per hectare = 10 × 5 = 50 tons",
+    "explanation": "To find total yield, multiply the land area by the yield per hectare. Total Yield = 10 hectares × 5 tons/hectare = 50 tons.",
+    "explanationHindi": "कुल उपज ज्ञात करने के लिए, भूमि क्षेत्र को प्रति हेक्टेयर उपज से गुणा करें। कुल उपज = 10 हेक्टेयर × 5 टन/हेक्टेयर = 50 टन।",
+    "tags": ["yield-calculation", "farm-management", "production"],
+    "prerequisites": ["basic-math"],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  },
+  {
+    "id": "agr-005",
+    "type": "mcq",
+    "subject": "agriculture",
+    "difficulty": "advanced",
+    "questionText": "What is precision agriculture?",
+    "questionTextHindi": "सटीक कृषि क्या है?",
+    "options": [
+      {
+        "id": "opt-1",
+        "text": "Using technology like GPS and sensors to optimize farming practices",
+        "isCorrect": true
+      },
+      {
+        "id": "opt-2",
+        "text": "Manual farming without any equipment",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-3",
+        "text": "Growing only one type of crop",
+        "isCorrect": false
+      },
+      {
+        "id": "opt-4",
+        "text": "Using excessive fertilizers",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "opt-1",
+    "explanation": "Precision agriculture uses advanced technologies like GPS, drones, sensors, and data analytics to optimize crop yields, reduce waste, and improve efficiency.",
+    "explanationHindi": "सटीक कृषि GPS, ड्रोन, सेंसर और डेटा विश्लेषण जैसी उन्नत तकनीकों का उपयोग करके फसल की उपज को अनुकूलित करने, अपशिष्ट को कम करने और दक्षता में सुधार करने के लिए करती है।",
+    "tags": ["precision-farming", "technology", "modern-agriculture"],
+    "prerequisites": ["agriculture-basics", "technology"],
+    "createdAt": "2024-10-16T00:00:00Z",
+    "updatedAt": "2024-10-16T00:00:00Z"
+  }
+]
