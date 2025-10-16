@@ -1,0 +1,29 @@
+# Machine Learning Dependencies for IndicTrans2 Model
+# Install with: pip install -r requirements-ml.txt
+
+# Core ML libraries
+transformers==4.36.2
+torch==2.1.2
+numpy==1.24.3
+
+# Hugging Face utilities
+huggingface-hub==0.19.4
+huggingface-datasets==2.16.1
+
+# Tokenization
+tokenizers==0.14.1
+sentencepiece==0.1.99
+
+# Utilities
+tqdm==4.66.1
+pyyaml==6.0.1
+requests==2.31.0
+
+# Optional: For quantization and optimization
+# onnx==1.15.0
+# onnxruntime==1.17.0
+# bitsandbytes==0.41.2  # For quantization on GPU
+
+# Optional: For evaluation metrics
+# sacrebleu==2.3.1
+# rouge-score==0.1.2
