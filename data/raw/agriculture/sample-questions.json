@@ -1,0 +1,86 @@
+[
+  {
+    "id": "agri-001",
+    "question": "What is crop rotation?",
+    "options": ["Planting the same crop yearly", "Alternating different crops in the same field", "Rotating farm equipment", "Harvesting crops"],
+    "correctOption": "Alternating different crops in the same field",
+    "explanation": "Crop rotation is the practice of growing different crops in the same field in successive seasons",
+    "difficulty": "beginner",
+    "type": "mcq"
+  },
+  {
+    "id": "agri-002",
+    "question": "What is soil pH?",
+    "options": ["Soil temperature", "Soil moisture", "Measure of soil acidity or alkalinity", "Soil color"],
+    "correctOption": "Measure of soil acidity or alkalinity",
+    "explanation": "Soil pH measures how acidic or alkaline soil is, on a scale from 0-14",
+    "difficulty": "beginner",
+    "type": "mcq"
+  },
+  {
+    "id": "agri-003",
+    "question": "What is nitrogen fixation?",
+    "options": ["Removing nitrogen from soil", "Converting atmospheric nitrogen into usable form", "Nitrogen pollution", "Nitrogen storage"],
+    "correctOption": "Converting atmospheric nitrogen into usable form",
+    "explanation": "Nitrogen fixation is the process of converting atmospheric nitrogen into ammonia that plants can use",
+    "difficulty": "beginner",
+    "type": "mcq"
+  },
+  {
+    "id": "agri-004",
+    "question": "What are the three main macronutrients for plants?",
+    "options": ["Nitrogen, Phosphorus, Potassium", "Carbon, Hydrogen, Oxygen", "Calcium, Magnesium, Sulfur", "Iron, Zinc, Copper"],
+    "correctOption": "Nitrogen, Phosphorus, Potassium",
+    "explanation": "NPK (Nitrogen, Phosphorus, Potassium) are the three primary macronutrients plants need",
+    "difficulty": "intermediate",
+    "type": "mcq"
+  },
+  {
+    "id": "agri-005",
+    "question": "What is organic farming?",
+    "options": ["Using only chemical fertilizers", "Farming without synthetic chemicals", "Large-scale monoculture", "Intensive irrigation"],
+    "correctOption": "Farming without synthetic chemicals",
+    "explanation": "Organic farming avoids synthetic pesticides and fertilizers, using natural methods instead",
+    "difficulty": "intermediate",
+    "type": "mcq"
+  },
+  {
+    "id": "agri-006",
+    "question": "What is soil erosion?",
+    "options": ["Soil enrichment", "Loss of topsoil due to wind or water", "Soil compaction", "Soil salinization"],
+    "correctOption": "Loss of topsoil due to wind or water",
+    "explanation": "Soil erosion is the removal of topsoil by wind or water, reducing soil fertility",
+    "difficulty": "intermediate",
+    "type": "mcq"
+  },
+  {
+    "id": "agri-007",
+    "question": "What is irrigation?",
+    "options": ["Removing water from fields", "Supplying water to crops artificially", "Natural rainfall", "Flood management"],
+    "correctOption": "Supplying water to crops artificially",
+    "explanation": "Irrigation is the artificial application of water to land to help grow crops",
+    "difficulty": "intermediate",
+    "type": "mcq"
+  },
+  {
+    "id": "agri-008",
+    "question": "Explain sustainable agriculture practices",
+    "explanation": "Sustainable agriculture balances productivity with environmental protection through practices like crop rotation, conservation tillage, and integrated pest management",
+    "difficulty": "advanced",
+    "type": "conceptual"
+  },
+  {
+    "id": "agri-009",
+    "question": "What is precision agriculture?",
+    "explanation": "Precision agriculture uses technology (GPS, sensors, drones) to optimize crop yields while minimizing resource use",
+    "difficulty": "advanced",
+    "type": "conceptual"
+  },
+  {
+    "id": "agri-010",
+    "question": "Describe the impact of climate change on agriculture",
+    "explanation": "Climate change affects agriculture through altered precipitation patterns, temperature extremes, and pest distribution changes",
+    "difficulty": "advanced",
+    "type": "conceptual"
+  }
+]

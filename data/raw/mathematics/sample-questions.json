@@ -1,0 +1,86 @@
+[
+  {
+    "id": "math-001",
+    "question": "What is 2 + 2?",
+    "options": ["3", "4", "5", "6"],
+    "correctOption": "4",
+    "explanation": "2 plus 2 equals 4",
+    "difficulty": "beginner",
+    "type": "mcq"
+  },
+  {
+    "id": "math-002",
+    "question": "What is the square root of 16?",
+    "options": ["2", "3", "4", "5"],
+    "correctOption": "4",
+    "explanation": "4 × 4 = 16, so the square root of 16 is 4",
+    "difficulty": "beginner",
+    "type": "mcq"
+  },
+  {
+    "id": "math-003",
+    "question": "What is 15 × 3?",
+    "options": ["35", "40", "45", "50"],
+    "correctOption": "45",
+    "explanation": "15 multiplied by 3 equals 45",
+    "difficulty": "beginner",
+    "type": "mcq"
+  },
+  {
+    "id": "math-004",
+    "question": "Solve: x + 5 = 12. What is x?",
+    "options": ["5", "7", "10", "12"],
+    "correctOption": "7",
+    "explanation": "x = 12 - 5 = 7",
+    "difficulty": "intermediate",
+    "type": "mcq"
+  },
+  {
+    "id": "math-005",
+    "question": "What is the area of a rectangle with length 5 and width 3?",
+    "options": ["8", "12", "15", "20"],
+    "correctOption": "15",
+    "explanation": "Area = length × width = 5 × 3 = 15",
+    "difficulty": "intermediate",
+    "type": "mcq"
+  },
+  {
+    "id": "math-006",
+    "question": "What is 25% of 100?",
+    "options": ["10", "20", "25", "50"],
+    "correctOption": "25",
+    "explanation": "25% = 25/100 = 0.25, so 0.25 × 100 = 25",
+    "difficulty": "intermediate",
+    "type": "mcq"
+  },
+  {
+    "id": "math-007",
+    "question": "What is the sum of angles in a triangle?",
+    "options": ["90°", "180°", "270°", "360°"],
+    "correctOption": "180°",
+    "explanation": "The sum of all angles in any triangle is always 180 degrees",
+    "difficulty": "intermediate",
+    "type": "mcq"
+  },
+  {
+    "id": "math-008",
+    "question": "Solve: 2x² + 3x - 2 = 0",
+    "explanation": "Using the quadratic formula: x = 1/2 or x = -2",
+    "difficulty": "advanced",
+    "type": "conceptual"
+  },
+  {
+    "id": "math-009",
+    "question": "What is the derivative of f(x) = x³?",
+    "explanation": "f'(x) = 3x²",
+    "difficulty": "advanced",
+    "type": "conceptual"
+  },
+  {
+    "id": "math-010",
+    "question": "Calculate the limit of (x² - 1)/(x - 1) as x approaches 1",
+    "explanation": "The limit equals 2",
+    "difficulty": "advanced",
+    "type": "conceptual"
+  }
+]

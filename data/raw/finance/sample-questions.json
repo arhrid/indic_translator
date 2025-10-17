@@ -1,0 +1,86 @@
+[
+  {
+    "id": "finance-001",
+    "question": "What is a budget?",
+    "options": ["A plan for spending money", "A bank account", "A loan", "An investment"],
+    "correctOption": "A plan for spending money",
+    "explanation": "A budget is a plan that shows how you will spend your money",
+    "difficulty": "beginner",
+    "type": "mcq"
+  },
+  {
+    "id": "finance-002",
+    "question": "What is interest on a savings account?",
+    "options": ["Money you borrow", "Money the bank pays you", "A fee for banking", "A tax"],
+    "correctOption": "Money the bank pays you",
+    "explanation": "Interest is money the bank pays you for keeping your money in their account",
+    "difficulty": "beginner",
+    "type": "mcq"
+  },
+  {
+    "id": "finance-003",
+    "question": "What is an emergency fund?",
+    "options": ["Money for vacations", "Money saved for unexpected expenses", "Money for investments", "Money for bills"],
+    "correctOption": "Money saved for unexpected expenses",
+    "explanation": "An emergency fund is money set aside for unexpected financial emergencies",
+    "difficulty": "beginner",
+    "type": "mcq"
+  },
+  {
+    "id": "finance-004",
+    "question": "What is a credit score?",
+    "options": ["Your bank balance", "A number that shows your creditworthiness", "Your salary", "Your age"],
+    "correctOption": "A number that shows your creditworthiness",
+    "explanation": "A credit score is a number (typically 300-850) that represents your creditworthiness",
+    "difficulty": "intermediate",
+    "type": "mcq"
+  },
+  {
+    "id": "finance-005",
+    "question": "What is compound interest?",
+    "options": ["Interest on interest", "Simple interest", "Bank fees", "Loan payments"],
+    "correctOption": "Interest on interest",
+    "explanation": "Compound interest is when you earn interest on your interest, causing exponential growth",
+    "difficulty": "intermediate",
+    "type": "mcq"
+  },
+  {
+    "id": "finance-006",
+    "question": "What is diversification in investing?",
+    "options": ["Putting all money in one stock", "Spreading investments across different assets", "Borrowing money", "Saving in one bank"],
+    "correctOption": "Spreading investments across different assets",
+    "explanation": "Diversification reduces risk by spreading investments across different types of assets",
+    "difficulty": "intermediate",
+    "type": "mcq"
+  },
+  {
+    "id": "finance-007",
+    "question": "What is inflation?",
+    "options": ["Increase in prices over time", "Decrease in prices", "Stock market crash", "Bank failure"],
+    "correctOption": "Increase in prices over time",
+    "explanation": "Inflation is the general increase in prices of goods and services over time",
+    "difficulty": "intermediate",
+    "type": "mcq"
+  },
+  {
+    "id": "finance-008",
+    "question": "Explain the concept of risk and return in investing",
+    "explanation": "Higher potential returns typically come with higher risk. Conservative investments have lower returns but less risk",
+    "difficulty": "advanced",
+    "type": "conceptual"
+  },
+  {
+    "id": "finance-009",
+    "question": "What is the difference between stocks and bonds?",
+    "explanation": "Stocks represent ownership in a company; bonds are loans to companies or governments",
+    "difficulty": "advanced",
+    "type": "conceptual"
+  },
+  {
+    "id": "finance-010",
+    "question": "Describe the impact of monetary policy on the economy",
+    "explanation": "Monetary policy affects interest rates, inflation, and employment through central bank actions",
+    "difficulty": "advanced",
+    "type": "conceptual"
+  }
+]
