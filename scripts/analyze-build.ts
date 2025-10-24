@@ -280,4 +280,5 @@ if (require.main === module) {
   }
 }
 
-export { analyzeBuild, BuildMetrics };
+export { analyzeBuild };
+export type { BuildMetrics };

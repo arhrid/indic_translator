@@ -1,9 +1,7 @@
 "use client";
 
-import { useChat } from "@ai-sdk/react";
-import { DefaultChatTransport } from "ai";
 import { useSearchParams } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import useSWR, { useSWRConfig } from "swr";
 import { unstable_serialize } from "swr/infinite";
 import { ChatHeader } from "@/components/chat-header";
@@ -32,6 +30,112 @@ import { MultimodalInput } from "./multimodal-input";
 import { getChatHistoryPaginationKey } from "./sidebar-history";
 import { toast } from "./toast";
 import type { VisibilityType } from "./visibility-selector";
+
+type LanguageCode = 'en' | 'hi' | 'ta' | 'te' | 'kn' | 'ml' | 'bn' | 'gu' | 'mr' | 'pa' | 'or' | 'as' | 'sa';
+
+const languageNames: Record<LanguageCode, string> = {
+  en: 'English',
+  hi: 'Hindi',
+  ta: 'Tamil',
+  te: 'Telugu',
+  kn: 'Kannada',
+  ml: 'Malayalam',
+  bn: 'Bengali',
+  gu: 'Gujarati',
+  mr: 'Marathi',
+  pa: 'Punjabi',
+  or: 'Odia',
+  as: 'Assamese',
+  sa: 'Sanskrit'
+};
+
+// Custom hook for chat functionality
+const useCustomChat = (options: {
+  id: string;
+  initialMessages: ChatMessage[];
+  onResponse?: (response: Response) => void;
+  onFinish?: (message: ChatMessage) => void;
+  onError?: (error: Error) => void;
+}) => {
+  const { id, initialMessages, onResponse, onFinish, onError } = options;
+  const [messages, setMessages] = useState<ChatMessage[]>(initialMessages);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<Error | null>(null);
+
+  const append = useCallback(async (message: Omit<ChatMessage, 'id'>) => {
+    const userMessage: ChatMessage = {
+      ...message,
+      id: generateUUID(),
+    };
+
+    setMessages((prev) => [...prev, userMessage]);
+    setIsLoading(true);
+    setError(null);
+
+    try {
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          messages: [...messages, userMessage],
+          chatId: id,
+        }),
+      });
+
+      onResponse?.(response);
+
+      if (!response.ok) {
+        throw new Error('Failed to get response from the API');
+      }
+
+      const data = await response.json();
+      const assistantMessage: ChatMessage = {
+        id: generateUUID(),
+        role: 'assistant',
+        content: data.choices?.[0]?.message?.content || '',
+      };
+
+      setMessages((prev) => [...prev, assistantMessage]);
+      onFinish?.(assistantMessage);
+    } catch (err) {
+      const error = err instanceof Error ? err : new Error('An error occurred');
+      setError(error);
+      onError?.(error);
+    } finally {
+      setIsLoading(false);
+    }
+  }, [id, messages, onResponse, onFinish, onError]);
+
+  return {
+    messages,
+    append,
+    isLoading,
+    error,
+    stop: () => {
+      // Implement if you need to support stopping streaming
+    },
+    reload: () => {
+      // Implement if you need to support reloading
+    },
+    input: '',
+    handleInputChange: () => {
+      // Implement if needed
+    },
+    handleSubmit: (e: React.FormEvent<HTMLFormElement>) => {
+      e.preventDefault();
+      const formData = new FormData(e.currentTarget);
+      const message = formData.get('message') as string;
+      if (message.trim()) {
+        append({
+          role: 'user',
+          content: message,
+        });
+      }
+    },
+  };
+};
 
 export function Chat({
   id,

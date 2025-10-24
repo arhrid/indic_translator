@@ -444,18 +444,18 @@ async function transformDatasets() {
   return report;
 }
 
-/**
- * Export for testing
- */
+// Export functions for testing
 export {
   transformQuestion,
   validateQuestion,
   deduplicateQuestions,
   loadRawDataset,
   transformSubjectDataset,
-  TransformedQuestion,
-  RawQuestion,
 };
+
+// Export types
+export type { TransformedQuestion };
+export type { RawQuestion };
 
 // Run if executed directly
 if (require.main === module) {
